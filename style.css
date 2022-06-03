@@ -1,0 +1,101 @@
+
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      
+      header {
+        padding: 10px;
+        width: 100%;
+        display: flex;
+        background-color: white;
+      }
+      .wrap {
+        width: 100%;
+        max-width: 1900px;
+        margin: 0 auto;
+      }
+      .container {
+        display: flex;
+      }
+      .fig-btn {
+        width: 100px;
+        display: none;
+        align-items: center;
+        justify-content: center;
+      }
+      .img-logo img {
+        width: 100px;
+      }
+      .navigation {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .navigation ul {
+        position: relative;
+        left: 7%;
+        list-style: none;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    
+      }
+        
+      a {
+        color:#9767A9;
+        font-size: 1.0rem;
+        text-decoration: none;
+      }
+      
+input {
+    background-image: url("lupa.png");
+    background-repeat: no-repeat;
+    background-position: 5%;
+    background-size: 10%;
+    margin-right: 20px;
+    border-radius: 50px;
+    padding: 8px;
+    width: 180px;
+    border: 3px solid #9767A9;
+
+  }
+  .group {
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .social-network {
+    width: 150px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .social-network img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+  }
+  .background {
+    background-color:#9767A9;     
+    width: 100%;
+    padding-top: 100px;
+  }
+  
+  .contain {
+    width: 100%;
+    position: relative;
+  }
+  .box-img {
+    text-align: center;
+  }
+  .box-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
